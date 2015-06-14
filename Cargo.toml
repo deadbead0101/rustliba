@@ -1,0 +1,14 @@
+[package]
+name = "rustliba"
+version = "0.1.0"
+authors = ["deadbead0101"]
+build = "build.rs"
+
+[lib]
+name = "rustliba"
+# dylib, rlib, staticlib
+crate-type = ["staticlib"]
+
+[dependencies]
+libc = "*"
+

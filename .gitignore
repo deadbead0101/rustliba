@@ -1,0 +1,5 @@
+C/hello.o
+C/libhello.a
+target
+Cargo.lock
+
